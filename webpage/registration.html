@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<title>Makerspace Registration</title>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet">
+	<link href="css/registration.css" rel="stylesheet" type="text/css">
+
+
+	<style>
+		button[type=submit] {
+			background-color: #4e2f77;
+			border-radius: 8px;
+			border: 1px solid #4e2f77;
+			display: inline-block;
+			cursor: pointer;
+			color: #ffffff;
+			font-family: Arial;
+			font-size: 16px;
+			padding: 11px 18px;
+			text-decoration: none;
+		}
+	</style>
+
+
+</head>
+
+<body>
+
+
+	<div class="navigation-bar">
+		<div id="navigation-container">
+			<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font size="6"
+				color="#ffffff"><b>CUmakeit</b></font>
+			<img src="src/tinypaw.png">
+		</div>
+	</div>
+	<div align="left" style="padding-left: 12px;">
+
+		<b>
+			<font size="6" type=>Makerspace Registration<br><br></font>
+		</b>
+
+		<form method="post" onsubmit="return validateInput();">
+			<table>
+
+				<tr>
+					<td>
+						<label>First Name:</label>
+					</td>
+					<td>
+						<div>
+							<input type="text" name="firstname" placeholder="First Name" />
+						</div>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<label>Last Name:</label>
+					</td>
+					<td>
+						<div>
+							<input type="text" name="lastname" placeholder="Last Name" />
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>CU Username:</label>
+					</td>
+					<td>
+						<div style="display: inline-block">
+							<input type="text" name="username" placeholder="username" />
+						</div>
+						<div style="display: inline-block">
+							@clemson.edu
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Major</label>
+					</td>
+					<td>
+						<div>
+							<select id="major" name="major">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Grade</label>
+					</td>
+					<td>
+						<div>
+							<select id="grade" name="grade">
+								<option value=""></option>
+								<option value="Freshman">Freshman</option>
+								<option value="Sophomore">Sophomore</option>
+								<option value="Junior">Junior</option>
+								<option value="Senior">Senior</option>
+								<option value="Grad">Grad</option>
+								<option value="Other">Other</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<br><br><br>
+						<button type="submit">Submit</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+	<script>
+		/******Populate Dropdown Menu with Majors from DB******/
+		var getUrl = "https://4cjew1je6c.execute-api.us-east-2.amazonaws.com/default/getMajors";
+
+		var xmlHttp = new XMLHttpRequest();
+		xmlHttp.open("GET", getUrl, false); // false for synchronous request
+		xmlHttp.send(null);
+		var majorString = xmlHttp.responseText;
+
+		//the response is a string of majors separated by newline, need to put into array
+		var majors = majorString.split("\n");
+		//push blank to front of array so the default isn't accountancy
+		majors.unshift("");
+
+
+		var select = document.getElementById("major");
+
+
+		for (var i = 0; i < majors.length; i++) {
+			var opt = majors[i];
+			//alert(opt);
+			var el = document.createElement("option");
+			el.textContent = opt;
+			el.value = opt;
+			select.appendChild(el);
+		}
+	</script>
+	<script src="registration.js"></script>
+
+
+</body>

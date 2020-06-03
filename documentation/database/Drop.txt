@@ -1,0 +1,10 @@
+DROP TABLE 3D_Certified;
+DROP TABLE Clemson_Student;
+DROP TABLE General_Certified;
+DROP TABLE Laser_Certified;
+DROP TABLE Login_History;
+DROP TABLE Majors;
+DROP TABLE Vinyl_Certified;
+DROP TABLE Student_ID;
+DROP TABLE Locations;
+DROP TABLE Makerspace_User;

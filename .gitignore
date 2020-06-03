@@ -1,0 +1,18 @@
+# Ignore config files containing sensitive information
+*.cfg
+*.ini
+
+# Java
+*.class
+*.jar
+
+# Certificate files generated from AWS
+/aws_iot/signin/certs/
+/aws_iot/signout/certs/
+
+# Documentation from S20 Capstone project not necessary
+/documentation/research/
+/documentation/misc/
+
+# VS Code settings
+/.vscode/

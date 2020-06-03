@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1847ab9e-4664-4753-8296-71bafced664c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YKFkVL03HQXUfeSVbCvF8PkazN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="maven shadeLshade" />
+      <command value="jackson-databind" />
+      <command value="mvn package shade:shade" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.lambda-jdbc-sample [package shade:shade]">
+    <configuration name="Unnamed" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script" nameIsGenerated="true">
+      <module name="lambda-jdbc-sample" />
+      <option name="filePath" value="" />
+      <option name="vmParameters" value="" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" value="" />
+      <option name="vmParameters" value="" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lambda-jdbc-sample [package shade:shade]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin script.Unnamed" />
+      <item itemvalue="Maven.lambda-jdbc-sample [package shade:shade]" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1847ab9e-4664-4753-8296-71bafced664c" name="Default Changelist" comment="" />
+      <created>1582683521398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582683521398</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="873" y="359" key="#Project_Structure" timestamp="1582683538520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="359" key="#Project_Structure/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1582683538520" />
+    <state x="736" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582683723620">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="736" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1582683723620" />
+    <state x="4546" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582738940976">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state x="4546" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582738940976" />
+    <state x="1086" y="417" key="#com.intellij.ide.util.MemberChooser" timestamp="1583197624344">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1086" y="417" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583197624344" />
+    <state x="-1124" y="845" key="FileChooserDialogImpl" timestamp="1585681224305">
+      <screen x="-1920" y="506" width="1920" height="1040" />
+    </state>
+    <state x="-1124" y="845" key="FileChooserDialogImpl/0.0.2560.1400/-1920.506.1920.1040@-1920.506.1920.1040" timestamp="1585681224305" />
+    <state x="1061" y="456" key="FileChooserDialogImpl/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583941291123" />
+    <state width="2517" height="400" key="GridCell.Tab.0.bottom" timestamp="1583215412588">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583215412588" />
+    <state width="2517" height="400" key="GridCell.Tab.0.center" timestamp="1583215412588">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="400" key="GridCell.Tab.0.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583215412588" />
+    <state width="2517" height="400" key="GridCell.Tab.0.left" timestamp="1583215412588">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="400" key="GridCell.Tab.0.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583215412588" />
+    <state width="2517" height="400" key="GridCell.Tab.0.right" timestamp="1583215412588">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="400" key="GridCell.Tab.0.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583215412588" />
+    <state x="811" y="356" key="Maven.ArtifactSearchDialog" timestamp="1583199180442">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="811" y="356" key="Maven.ArtifactSearchDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583199180442" />
+    <state x="-1167" y="739" width="1038" height="865" key="SettingsEditor" timestamp="1585681216299">
+      <screen x="-1920" y="506" width="1920" height="1040" />
+    </state>
+    <state x="-1167" y="739" key="SettingsEditor/0.0.2560.1400/-1920.506.1920.1040@-1920.506.1920.1040" timestamp="1585681216299" />
+    <state x="1004" y="314" width="1038" height="865" key="SettingsEditor/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583205983099" />
+    <state x="977" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1583110569616">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="977" y="525" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583110569616" />
+    <state x="937" y="331" width="672" height="677" key="run.anything.popup" timestamp="1583214151686">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="937" y="331" width="672" height="677" key="run.anything.popup/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583214151686" />
+    <state x="4543" y="246" width="672" height="503" key="run.anything.popup/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582739077015" />
+  </component>
+</project>

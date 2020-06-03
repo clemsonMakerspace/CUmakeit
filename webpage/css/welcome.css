@@ -1,0 +1,63 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+
+p {
+    padding-left: 18px;
+}
+
+
+img {
+   padding-left: 0%;
+   padding-top: 0.5%;  
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 1200px;
+  height: 90px;
+  position: relative;
+}
+
+.navigation-bar {
+  background-color: #4e2f77;
+  height: 90px;
+  width: 100%;
+}
+
+/* Style inputs, select elements and textareas */
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/* Style the container */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}

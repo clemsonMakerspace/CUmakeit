@@ -1,0 +1,78 @@
+CREATE TABLE `Makerspace_User` (
+  `LID` int(11) NOT NULL AUTO_INCREMENT,
+  `First_Name` varchar(30) DEFAULT NULL,
+  `Email` varchar(45) NOT NULL,
+  `AccessLevel` int(11) DEFAULT NULL,
+  `Last_Name` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`LID`)
+) ENGINE=InnoDB AUTO_INCREMENT=127 DEFAULT CHARSET=latin1;
+
+CREATE TABLE `3D_Certified` (
+  `TDID` int(11) NOT NULL,
+  PRIMARY KEY (`TDID`),
+  CONSTRAINT `FK_TDID` FOREIGN KEY (`TDID`) REFERENCES `Makerspace_User` (`LID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `General_Certified` (
+  `GID` int(11) NOT NULL,
+  PRIMARY KEY (`GID`),
+  CONSTRAINT `FK_GID` FOREIGN KEY (`GID`) REFERENCES `Makerspace_User` (`LID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `Laser_Certified` (
+  `LZID` int(11) NOT NULL,
+  PRIMARY KEY (`LZID`),
+  CONSTRAINT `FK_LZID` FOREIGN KEY (`LZID`) REFERENCES `Makerspace_User` (`LID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `Vinyl_Certified` (
+  `VID` int(11) NOT NULL,
+  PRIMARY KEY (`VID`),
+  CONSTRAINT `FK_VID` FOREIGN KEY (`VID`) REFERENCES `Makerspace_User` (`LID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `Clemson_Student` (
+  `LID` int(11) NOT NULL,
+  `First_Name` varchar(30) DEFAULT NULL,
+  `Major` varchar(45) DEFAULT NULL,
+  `Year` varchar(45) DEFAULT NULL,
+  `College` varchar(45) DEFAULT NULL,
+  `Last_Name` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`LID`),
+  CONSTRAINT `FK_LID` FOREIGN KEY (`LID`) REFERENCES `Makerspace_User` (`LID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+CREATE TABLE `Locations` (
+  `LOID` int(11) NOT NULL,
+  `LocationName` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`LOID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `Login_History` (
+  `LoginTime` datetime DEFAULT NULL,
+  `LogoutTime` datetime DEFAULT NULL,
+  `RelatedUser` int(11) DEFAULT NULL,
+  `LogLocation` int(11) DEFAULT NULL,
+  `LHID` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`LHID`),
+  KEY `RelatedUser_idx` (`RelatedUser`),
+  KEY `LogLocation_idx` (`LogLocation`),
+  CONSTRAINT `FK_RelatedUserLH` FOREIGN KEY (`RelatedUser`) REFERENCES `Makerspace_User` (`LID`),
+  CONSTRAINT `LogLocation` FOREIGN KEY (`LogLocation`) REFERENCES `Locations` (`LOID`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=59 DEFAULT CHARSET=latin1;
+
+CREATE TABLE `Majors` (
+  `Major` varchar(255) DEFAULT NULL,
+  `DegreeType` varchar(255) DEFAULT NULL,
+  `College` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+CREATE TABLE `Student_ID` (
+  `LID` int(11) DEFAULT NULL,
+  `SID` bigint(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+

@@ -1,0 +1,71 @@
+<DOCTYPE html>
+
+<title>Enter or Try Again</title>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="css/enterOrTry.css" rel="stylesheet" type="text/css">
+
+
+  <style> 
+	button[type=submit]{
+	background-color:#4e2f77;
+	border-radius:8px;
+	border:1px solid #4e2f77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:11px 18px;
+	text-decoration:none;	}
+  </style>
+
+
+</head>
+
+<body>
+
+
+	  <div class="navigation-bar">
+
+
+	    <div id="navigation-container">
+
+	      <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font size="6" color="#ffffff"><b>CUmakeit</b></font>
+
+	      <img src="src/tinypaw.png">
+
+	    </div>
+
+	   </div>
+
+	   <div align="left" style="padding-left: 12px;">
+	 	<font size = "6"><b>Invalid Username<br><br></font></b>
+
+
+
+		<form action="post" onsubmit="return radioInput();"
+	
+		<p>That username was not found in our database, would you like to re-enter your username, or register for a Makerspace account?</p>
+
+		<input type="radio" name="input" value="reenter"> Re-Enter Username
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="radio" name="input" value="register"> Register Account
+
+		<br><br>
+		<button type="submit">Submit</button>
+
+
+		</form>
+	</div>
+
+</body>
+
+<script src="enterOrTry.js">
+
+</script>
+
+
+
+</html>

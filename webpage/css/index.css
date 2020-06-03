@@ -1,0 +1,28 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+img {
+   padding-left: 0%;
+   padding-top: 0.5%;  
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 1200px;
+  height: 90px;
+  position: relative;
+}
+
+.navigation-bar {
+  background-color: #4e2f77;
+  height: 90px;
+  width: 100%;
+}
+

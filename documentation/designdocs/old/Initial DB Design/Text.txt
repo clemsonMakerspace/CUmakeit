@@ -1,0 +1,16 @@
+The purpose for our DB design was initially:
+    1. Security built into the DB via relation between certified users 
+       and tasks. If someone would make a task that they are not certified
+       for, then it wouldnt allow the task to enter the DB. This is not only
+       good design, but prevents security errors should a future team change
+       the web / app layer. 
+         
+    2. A table tracking machines and a table tracking locations, allowing the
+       makerspace to expand by simply adding a entry
+       
+    3. A table tracking CUStudent info and login history, to provide easy access
+       to credentials as well as foregin keys to allow for easy querries (IE
+       statements we would write to produce valuable user info).
+    3B.The makerspace user is seperate from CUStudent since during events, a
+       guest may not nesseserily be a student.
+  

@@ -1,0 +1,9 @@
+The green is our scope for the semester,
+The yellow is unlikely features,
+The red is infeasable features.
+
+This is to allow our team to focus on the most valuable sections of the DB,
+giving us time to implement it well and provide time for testing the implementation.
+
+NOTE: the rest of the DB (yellow/red) is still created but empty,and is meant for future
+teams / programmers to focus on continued improvement.
